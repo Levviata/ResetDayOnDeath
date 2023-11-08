@@ -1,6 +1,6 @@
 package com.levviata.resetdayondeath;
 
-import net.minecraft.init.Blocks;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -26,5 +26,6 @@ public class ResetDayOnDeath
     public void init(FMLInitializationEvent event)
     {
         logger.info("Starting Reset Day On Death");
+        MinecraftForge.EVENT_BUS.register(new PlayerDeathListener());
     }
 }

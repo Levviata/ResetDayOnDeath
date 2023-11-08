@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: Reset Day on Death
+Implementation-Version: 1.0
+Specification-Vendor: Levviata
+Specification-Title: resetdayondeath
+Implementation-Timestamp: 2023-11-08T16:31:47+0100
+Specification-Version: 1
+Implementation-Vendor: Levviata
+
