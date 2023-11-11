@@ -1,9 +1,8 @@
-package com.levviata.resetdayondeath;
+package com.levviata.levviatasdeathevents;
 
-import com.levviata.resetdayondeath.subscribers.HardcoreRevivalDeathListener;
-import com.levviata.resetdayondeath.subscribers.PlayerReviveDeathListener;
-import com.levviata.resetdayondeath.subscribers.VanillaDeathListener;
-import com.levviata.resetdayondeath.utils.DeathListenerHandler;
+import com.levviata.levviatasdeathevents.subscribers.HardcoreRevivalDeathListener;
+import com.levviata.levviatasdeathevents.subscribers.PlayerReviveDeathListener;
+import com.levviata.levviatasdeathevents.subscribers.VanillaDeathListener;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.Mod;
@@ -12,11 +11,11 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = ResetDayOnDeath.MODID, name = ResetDayOnDeath.NAME, version = ResetDayOnDeath.VERSION)
-public class ResetDayOnDeath
+@Mod(modid = LevviatasDeathEvents.MODID, name = LevviatasDeathEvents.NAME, version = LevviatasDeathEvents.VERSION)
+public class LevviatasDeathEvents
 {
-    public static final String MODID = "resetdayondeath";
-    public static final String NAME = "Reset Day On Death";
+    public static final String MODID = "levviatasdeathevents";
+    public static final String NAME = "Levviata's Death Events";
     public static final String VERSION = "1.0";
 
     public static boolean PlayerReviveIsOn = false;

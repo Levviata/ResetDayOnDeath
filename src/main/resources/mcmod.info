@@ -1,8 +1,8 @@
 [
 {
-  "modid": "resetdayondeath",
-  "name": "Reset Day On Death",
-  "description": "Resets the day to 0 on death.",
+  "modid": "levviatasdeathevents",
+  "name": "Levviata's Death Events",
+  "description": "Just various misc death events for my modpack, feel free to use them in yours.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",

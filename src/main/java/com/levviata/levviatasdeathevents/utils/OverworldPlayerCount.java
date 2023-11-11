@@ -1,11 +1,10 @@
-package com.levviata.resetdayondeath.utils;
+package com.levviata.levviatasdeathevents.utils;
 
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.WorldServer;
-import net.minecraft.world.World;
 import net.minecraftforge.common.DimensionManager;
 
-public class PlayerCount {
+public class OverworldPlayerCount {
 
     public static int getOverworldPlayerCount(MinecraftServer server) {
         int playerCount = 0;

@@ -1,12 +1,12 @@
-package com.levviata.resetdayondeath.subscribers;
+package com.levviata.levviatasdeathevents.subscribers;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-import static com.levviata.resetdayondeath.utils.DeathListenerHandler.handlePlayerDeath;
-import static com.levviata.resetdayondeath.ResetDayOnDeath.HardcoreRevivalIsOn;
-import static com.levviata.resetdayondeath.ResetDayOnDeath.PlayerReviveIsOn;
+import static com.levviata.levviatasdeathevents.handlers.DeathListenerHandler.handlePlayerDeath;
+import static com.levviata.levviatasdeathevents.LevviatasDeathEvents.HardcoreRevivalIsOn;
+import static com.levviata.levviatasdeathevents.LevviatasDeathEvents.PlayerReviveIsOn;
 
 public class VanillaDeathListener {
     @SubscribeEvent
@@ -17,6 +17,7 @@ public class VanillaDeathListener {
                 EntityPlayer player = (EntityPlayer) event.getEntity();
                 handlePlayerDeath(player);
             }
+
         }
     }
 }
