@@ -1,10 +1,10 @@
-package com.levviata.levviatasdeathevents.subscribers;
+package com.levviata.levviatasdeathevents.listeners;
 
 import net.blay09.mods.hardcorerevival.PlayerKnockedOutEvent;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-import static com.levviata.levviatasdeathevents.handlers.DeathListenerHandler.handlePlayerDeath;
+import static com.levviata.levviatasdeathevents.handlers.DeathHandler.handlePlayerDeath;
 import static com.levviata.levviatasdeathevents.LevviatasDeathEvents.PlayerReviveIsOn;
 
 public class HardcoreRevivalDeathListener {
@@ -14,7 +14,7 @@ public class HardcoreRevivalDeathListener {
         if (!PlayerReviveIsOn) {
             event.getPlayer();
             EntityPlayer player = event.getPlayer();
-            handlePlayerDeath(player);
+            //handlePlayerDeath(player);
         }
     }
 }

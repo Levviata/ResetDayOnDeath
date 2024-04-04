@@ -1,0 +1,8 @@
+{
+  "levviatadeathevents.sounds": {
+    "category": "player",
+    "sounds": [
+      "levviatadeathevents:deathsound1.ogg"
+    ]
+  }
+}

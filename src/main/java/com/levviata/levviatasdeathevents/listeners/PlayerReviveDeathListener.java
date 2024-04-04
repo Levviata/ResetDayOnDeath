@@ -1,10 +1,10 @@
-package com.levviata.levviatasdeathevents.subscribers;
+package com.levviata.levviatasdeathevents.listeners;
 
 import com.creativemd.playerrevive.api.event.PlayerKilledEvent;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-import static com.levviata.levviatasdeathevents.handlers.DeathListenerHandler.handlePlayerDeath;
+import static com.levviata.levviatasdeathevents.handlers.DeathHandler.handlePlayerDeath;
 import static com.levviata.levviatasdeathevents.LevviatasDeathEvents.HardcoreRevivalIsOn;
 
 public class PlayerReviveDeathListener {
@@ -14,7 +14,7 @@ public class PlayerReviveDeathListener {
         if (!HardcoreRevivalIsOn) {
             if (event.getEntity() instanceof EntityPlayer) {
                 EntityPlayer player = (EntityPlayer) event.getEntity();
-                handlePlayerDeath(player);
+                //handlePlayerDeath(player);
             }
         }
     }

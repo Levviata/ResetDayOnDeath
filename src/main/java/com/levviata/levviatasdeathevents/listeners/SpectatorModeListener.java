@@ -1,4 +1,4 @@
-package com.levviata.levviatasdeathevents.subscribers;
+package com.levviata.levviatasdeathevents.listeners;
 
 public class SpectatorModeListener
 {
