@@ -63,6 +63,7 @@ dependencies {
     compileOnly files('libs/PlayerRevive_v1.2.40_mc1.12.2.jar')
     compileOnly files('libs/HardcoreRevival_1.12.2-1.2.0.jar')
     compileOnly files('libs/NTM-Extended-1.12.2-2.0.1.jar')
+    compileOnly files('libs/SimpleDifficulty-1.12.2-0.3.9 (1).jar')
     // You may put jars on which you depend on in ./libs or you may define them like so..
     // compile "some.group:artifact:version:classifier"
     // compile "some.group:artifact:version"
