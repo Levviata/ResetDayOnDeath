@@ -15,7 +15,7 @@ public class VanillaDeathListener {
         if (!PlayerReviveIsOn && !HardcoreRevivalIsOn) {
             if (event.getEntity() instanceof EntityPlayer) {
                 EntityPlayer player = (EntityPlayer) event.getEntity();
-                //handlePlayerDeath(player);
+                handlePlayerDeath(player);
             }
 
         }

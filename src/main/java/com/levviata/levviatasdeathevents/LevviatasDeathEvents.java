@@ -1,6 +1,7 @@
 package com.levviata.levviatasdeathevents;
 
 import com.levviata.levviatasdeathevents.events.PlayerLoadInEvent;
+import com.levviata.levviatasdeathevents.handlers.DayHandler;
 import com.levviata.levviatasdeathevents.handlers.TemperatureHandler;
 import com.levviata.levviatasdeathevents.listeners.HardcoreRevivalDeathListener;
 import com.levviata.levviatasdeathevents.listeners.PlayerReviveDeathListener;
@@ -44,6 +45,8 @@ public class LevviatasDeathEvents
         // Register your packet handler
         networkWrapper.registerMessage(PacketHandler.PacketDeathSoundHandler.class, PacketHandler.PacketDeathSound.class, 0, Side.CLIENT);
         */
+        MinecraftForge.EVENT_BUS.register(new DayHandler());
+
         MinecraftForge.EVENT_BUS.register(new TemperatureHandler());
 
         MinecraftForge.EVENT_BUS.register(new VanillaDeathListener());

@@ -16,12 +16,12 @@ import static com.levviata.levviatasdeathevents.handlers.PlayerSpreadHandler.spr
 import static com.levviata.levviatasdeathevents.utils.CheckSpectators.areAllPlayersInSpectatorMode;
 
 public class RespawnListener {
-    @SubscribeEvent
+    /*@SubscribeEvent
     public void onPlayerRespawn(PlayerEvent.PlayerRespawnEvent event) {
         if (!(event.player instanceof FakePlayer)) {
             EntityPlayer player = event.player;
             handlePlayerDeath(player);
         }
-    }
+    }*/
 }
 

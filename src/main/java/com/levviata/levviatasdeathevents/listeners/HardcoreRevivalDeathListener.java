@@ -14,7 +14,7 @@ public class HardcoreRevivalDeathListener {
         if (!PlayerReviveIsOn) {
             event.getPlayer();
             EntityPlayer player = event.getPlayer();
-            //handlePlayerDeath(player);
+            handlePlayerDeath(player);
         }
     }
 }
