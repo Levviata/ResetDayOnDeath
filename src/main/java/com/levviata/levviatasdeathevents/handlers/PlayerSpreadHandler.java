@@ -22,7 +22,9 @@ public class PlayerSpreadHandler {
         player.setPositionAndUpdate(pos.getX(), pos.getY(), pos.getZ());
 
         // Reset the spawn point to the player's current location, removing any existing bed spawn point
+        player.forceSpawn = true;
         player.setSpawnPoint(player.getPosition(), false);
+        player.forceSpawn = false;
     }
 
     private static boolean isWaterBiome(Biome biome) {

@@ -27,14 +27,11 @@ public class DeathHandler {
                     server.getCommandManager().executeCommand(server, "time set day");
                     server.getCommandManager().executeCommand(server, "weather clear");
                     server.getCommandManager().executeCommand(server, "stopHordeEvent");
-                    server.getCommandManager().executeCommand(server, "scalinghealth difficulty set 0 " + playerName);
                     //server.getCommandManager().executeCommand(server, "sereneseasons setseason mid_summer" + playerName);
-                    if (areAllPlayersInSpectatorMode(server, overworldPlayerCount)) {
+                    /*if (areAllPlayersInSpectatorMode(server, overworldPlayerCount)) {
                         for (EntityPlayer entityPlayer : world.playerEntities) {
                             spreadPlayer(entityPlayer, world);
                             server.getCommandManager().executeCommand(server, "gamemode survival " + entityPlayer.getName());
-                            server.getCommandManager().executeCommand(server, "scalinghealth difficulty set 0 " + entityPlayer.getName());
-                            server.getCommandManager().executeCommand(server, "sereneseasons setseason mid_summer" + entityPlayer.getName());
                         }
                         //server.getCommandManager().executeCommand(server, "sereneseasons setseason mid_summer");
                         server.getCommandManager().executeCommand(server, "srpevolution setphase 0");
@@ -42,13 +39,13 @@ public class DeathHandler {
                         server.getCommandManager().executeCommand(server, "weather clear");
                         server.getCommandManager().executeCommand(server, "stopHordeEvent");
                     }
+                }*/
                 }
             }
         }
-    }
 
 
-    // Code for spreading players to a random location.
+        // Code for spreading players to a random location.
 
     /*
     private void spawnPlayersNear(EntityPlayer sourcePlayer, int playerCount, WorldServer world) {
@@ -79,4 +76,5 @@ public class DeathHandler {
             player.setSpawnPoint(newSpawnPoints[i], true);
         }
     }*/
+    }
 }

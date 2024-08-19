@@ -17,7 +17,7 @@ public class DayHandler {
 				long daysPassed = worldTime / 24000;
 
 				// Check if it's the 10th day
-				if (daysPassed == 10) {
+				if (daysPassed == 11) {
 					// Enable mob spawning
 					world.getGameRules().setOrCreateGameRule("doMobSpawning", "true");
 				} else {

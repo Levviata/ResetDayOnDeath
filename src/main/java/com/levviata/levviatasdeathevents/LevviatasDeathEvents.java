@@ -6,14 +6,12 @@ import com.levviata.levviatasdeathevents.handlers.TemperatureHandler;
 import com.levviata.levviatasdeathevents.listeners.HardcoreRevivalDeathListener;
 import com.levviata.levviatasdeathevents.listeners.PlayerReviveDeathListener;
 import com.levviata.levviatasdeathevents.listeners.VanillaDeathListener;
-import net.minecraft.server.MinecraftServer;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLServerStartedEvent;
 import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import org.apache.logging.log4j.Logger;
 
